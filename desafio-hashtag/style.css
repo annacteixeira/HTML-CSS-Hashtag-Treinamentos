@@ -169,3 +169,15 @@ h1 {
 #hashtag-help p {
     font-size: 19px;
 }
+
+/* Main - Mini Course */
+
+#mini-course h2 {
+    font-size: 35px;
+    font-weight: 400;
+}
+
+#mini-course p {
+    font-size: 19px;
+    font-weight: 400;
+}
