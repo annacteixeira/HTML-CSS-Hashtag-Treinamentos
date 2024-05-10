@@ -97,3 +97,18 @@ h1 {
     font-weight: 400;
 }
 
+/* Main - What They Say */
+
+#what-they-say h2{
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.talking-about-hashtag {
+    font-weight: 600;
+}
+
+.testimony a {
+    font-size: 24px;
+    font-weight: 700;
+}
