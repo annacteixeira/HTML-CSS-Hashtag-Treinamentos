@@ -1,0 +1,53 @@
+:root {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 45px;
+    line-height: 1;
+}
+
+h2 {
+    font-size: 32px;
+    line-height: 1.1;
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 1.2;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+figcaption {
+    font-size: 12px;
+    font-style: italic;
+}
+
+a {
+    font-size: 24px;
+    text-decoration: double;
+    text-decoration-line: underline;
+    font-weight: 700;
+    color: #c44105;
+}
+
+li {
+    color: #035276;
+    font-style: italic;
+}
+
+.tv-size {
+    color: #0588c4;
+}
+
+strong, b, i, em {
+    color:#0588c4;
+}
+
+em {
+    text-decoration: underline;
+}
