@@ -144,3 +144,28 @@ h1 {
 .post-description {
     font-size: 17px;
 }
+
+/* Main - Hashtag Help */
+#hashtag-help h2 {
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.strong-highlight-hashtag-help {
+    font-weight: 600;
+}
+
+#hashtag-help li {
+    font-size: 19px;
+    font-weight: 400;
+}
+
+#hashtag-help li a, #hashtag-help p a {
+    color: #008ff7;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+#hashtag-help p {
+    font-size: 19px;
+}
