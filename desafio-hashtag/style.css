@@ -181,3 +181,34 @@ h1 {
     font-size: 19px;
     font-weight: 400;
 }
+
+/* Footer */
+
+.talk-to-us, .address, .social-medias, .data-protection, .useful-links {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.online-courses {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.suport-assistant {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.link-footer {
+    color: #1a77a4;
+    text-decoration: underline;
+}
+
+.newsletter {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.name-footer-newsletter, .email-footer-newsletter {
+    font-size: 18px;
+}
