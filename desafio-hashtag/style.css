@@ -31,3 +31,32 @@ h1 {
     text-decoration: none;
     font-weight: 700;
 }
+
+/* Main - Free Contents */
+
+#free-contents h2 {
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.purple-highlight-home {
+    color: #7a40be;
+    font-weight: 600;
+}
+
+#free-contents h3 {
+  font-size: 23px;
+  font-weight: 700;
+}
+
+.menu-treinamentos li, a{
+    font-size: 19px;
+    color: #404040;
+    text-decoration: none;
+}
+
+.menu-programacao li, a{
+    font-size: 19px;
+    color: #404040;
+    text-decoration: none;
+}
