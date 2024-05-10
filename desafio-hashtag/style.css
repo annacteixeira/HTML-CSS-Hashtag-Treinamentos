@@ -1,0 +1,16 @@
+/* Global */
+
+:root {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Header */
+
+.menu-cabecalho li a{
+    color: #112e61;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+}
+
