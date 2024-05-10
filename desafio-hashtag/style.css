@@ -60,3 +60,40 @@ h1 {
     color: #404040;
     text-decoration: none;
 }
+
+/* Main - Diferentials */
+
+#diferentials h2 {
+    font-size: 35px;
+    font-weight: 400;
+}
+
+#diferentials strong {
+    font-weight: 600;
+}
+
+.diferentials-hashtag-h2 {
+    font-weight: 600;
+}
+
+.text-diferentials-home-header {
+    font-size: 19px;
+}
+
+.subtitle-diferentials-home {
+    font-size: 24px;
+    color: #005e88;
+    font-weight: 600;
+}
+
+.blue-highlight-home a {
+    color: #005e88;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.companies-hashtag {
+    font-size: 35px;
+    font-weight: 400;
+}
+
