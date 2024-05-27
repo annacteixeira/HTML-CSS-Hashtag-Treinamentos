@@ -1,33 +1,56 @@
+/* Universal */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /* Global */
 
 :root {
     font-family: 'Montserrat', sans-serif;
+    font-size: 62.5%;
     color: #404040;
+}
+
+body {
+    font-size: 1.6rem;
+    line-height: 1.4;
 }
 
 /* Header */
 
-.menu-cabecalho li a{
+.menu-cabecalho li a {
     color: #112e61;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 1.4rem;
     font-weight: 600;
+}
+
+nav a:hover, 
+a:active {
+    color: #f60;
+}
+
+.item-header-list--has-children::after {
+    content: "\2bc6";
 }
 
 /* Main - Hero Section */
 
 h1 {
-    font-size: 35px;
+    font-size: 3.5rem;
     font-weight: 600;
 }
 
 #hero p {
-    font-size: 19px;
+    font-size: 1.9rem;
 }
 
 .hero-button {
-    font-size: 24px;
+    font-size: 2.4rem;
     text-decoration: none;
     font-weight: 700;
 }
@@ -35,7 +58,7 @@ h1 {
 /* Main - Free Contents */
 
 #free-contents h2 {
-    font-size: 35px;
+    font-size: 3.5rem;
     font-weight: 400;
 }
 
@@ -45,18 +68,18 @@ h1 {
 }
 
 #free-contents h3 {
-  font-size: 23px;
+  font-size: 2.3rem;
   font-weight: 700;
 }
 
 .menu-treinamentos li, a{
-    font-size: 19px;
+    font-size: 1.9rem;
     color: #404040;
     text-decoration: none;
 }
 
 .menu-programacao li, a{
-    font-size: 19px;
+    font-size: 1.9rem;
     color: #404040;
     text-decoration: none;
 }
@@ -64,7 +87,7 @@ h1 {
 /* Main - Diferentials */
 
 #diferentials h2 {
-    font-size: 35px;
+    font-size: 3.5rem;
     font-weight: 400;
 }
 
@@ -77,30 +100,30 @@ h1 {
 }
 
 .text-diferentials-home-header {
-    font-size: 19px;
+    font-size: 1.9rem;
 }
 
 .subtitle-diferentials-home {
-    font-size: 24px;
+    font-size: 2.4rem;
     color: #005e88;
     font-weight: 600;
 }
 
 .blue-highlight-home a {
     color: #005e88;
-    font-size: 35px;
+    font-size: 3.5rem;
     font-weight: 700;
 }
 
 .companies-hashtag {
-    font-size: 35px;
+    font-size: 3.5rem;
     font-weight: 400;
 }
 
 /* Main - What They Say */
 
 #what-they-say h2{
-    font-size: 35px;
+    font-size: 3.5rem;
     font-weight: 400;
 }
 
@@ -109,26 +132,26 @@ h1 {
 }
 
 .testimony a {
-    font-size: 24px;
+    font-size: 2.4rem;
     font-weight: 700;
 }
 
 /* Main - In the Midia */
 
 #in-the-midia h2 {
-    font-size: 35px;
+    font-size: 3.5rem;
     font-weight: 400;
 }
 
 /* Main - Blog */
 
 #blog h2 {
-    font-size: 35px;
+    font-size: 3.5rem;
     font-weight: 400;
 }
 
 .posted-in, .posted-in a {
-    font-size: 15px;
+    font-size: 1.5rem;
 }
 
 .posted-in a {
@@ -137,17 +160,17 @@ h1 {
 }
 
 .post-title {
-    font-size: 24px;
+    font-size: 2.4rem;
     font-weight: 600;
 }
 
 .post-description {
-    font-size: 17px;
+    font-size: 1.7rem;
 }
 
 /* Main - Hashtag Help */
 #hashtag-help h2 {
-    font-size: 35px;
+    font-size: 3.5rem;
     font-weight: 400;
 }
 
@@ -156,7 +179,7 @@ h1 {
 }
 
 #hashtag-help li {
-    font-size: 19px;
+    font-size: 1.9rem;
     font-weight: 400;
 }
 
@@ -167,35 +190,35 @@ h1 {
 }
 
 #hashtag-help p {
-    font-size: 19px;
+    font-size: 1.9rem;
 }
 
 /* Main - Mini Course */
 
 #mini-course h2 {
-    font-size: 35px;
+    font-size: 3.5rem;
     font-weight: 400;
 }
 
 #mini-course p {
-    font-size: 19px;
+    font-size: 1.9rem;
     font-weight: 400;
 }
 
 /* Footer */
 
 .talk-to-us, .address, .social-medias, .data-protection, .useful-links {
-    font-size: 22px;
+    font-size: 2.2rem;
     font-weight: 600;
 }
 
 .online-courses {
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 500;
 }
 
 .suport-assistant {
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 500;
 }
 
@@ -205,10 +228,10 @@ h1 {
 }
 
 .newsletter {
-    font-size: 22px;
+    font-size: 2.2rem;
     font-weight: 600;
 }
 
 .name-footer-newsletter, .email-footer-newsletter {
-    font-size: 18px;
+    font-size: 1.8rem;
 }
