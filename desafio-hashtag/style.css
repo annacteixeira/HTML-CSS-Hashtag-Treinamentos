@@ -55,7 +55,23 @@ ul {
     margin: 0 auto;
 }
 
+input {
+    width: 100%;
+    padding: 1.02rem;
+    height: 4rem;
+    border: 0;
+    border-radius: 0.8rem;
+    box-shadow: inset 0 0 0.4rem 0.2rem rgba(0,0,0,.3);
+    font-size: 1.4rem;
+    font-family: inherit;
+}
+
+input::placeholder {
+    color: #757575;
+}
+
 /* Header */
+
 .header {
     position: sticky;
     z-index: 999;
@@ -548,6 +564,10 @@ a {
     padding: 4.88rem;
 }
 
+.secondary-help-section {
+    background-color: #f4f5f7;
+}
+
 .orange-help-section, 
 .secondary-help-section {
     padding: 7.63rem 2rem;
@@ -562,11 +582,16 @@ a {
     font-weight: 400;
 }
 
+
 .hashtag-help-section li a,
 .hashtag-help-section p a {
     color: #008ff7;
     font-weight: 600;
     text-decoration: underline;
+}
+
+.hashtag-help-section a:hover {
+    color: #0056b3;
 }
 
 .hashtag-help-section p {
@@ -575,10 +600,38 @@ a {
 
 /* Main - Mini Course */
 
+.mini-course-section {
+    background-image: url(https://www.hashtagtreinamentos.com/wp-content/uploads/2022/06/BACKGROUND-banner-08_1.png);
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
 .mini-course-section p {
     font-size: 1.9rem;
     font-weight: 400;
 }
+
+.form-course-button {
+    background: #ffba29;
+    border-left: 0;
+    border-top: 0;
+    border-right: solid 0.4rem #664a10;
+    border-bottom: solid 0.4rem #664a10;
+    box-shadow: 0.4rem 0.3rem 0.8rem -0.2rem rgba(0,0,0,.3);
+    color: #fff;
+}
+
+.form-course-button:hover{
+    border-right: solid 0.4rem #ffba29;
+    border-bottom: solid 0.4rem #ffba29; 
+}
+
+.label-mini-course {
+    font-size: 1.9rem;
+}
+
 
 /* Footer */
 
