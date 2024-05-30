@@ -56,7 +56,7 @@ ul {
 }
 
 input {
-    width: 100%;
+    /* width: 100%; */
     padding: 1.02rem;
     height: 4rem;
     border: 0;
@@ -120,6 +120,7 @@ a:active {
 
 .hero-button {
     color: #fff;
+    border-top: 0;
     border-bottom: solid 0.4rem #993c38;
     border-right: solid 0.4rem #993c38;
 }
@@ -428,8 +429,8 @@ a {
     background-image: linear-gradient(180deg, #196c9f, #1a80a7);
     border-bottom: solid 0.4rem #14577f;
     border-right: solid 0.4rem #14577f;
-    border-top-width: 0;
-    border-left-width: 0;
+    border-top: 0;
+    border-left: 0;
 }
 
 .testimony-button:hover,
@@ -437,10 +438,10 @@ a {
     background-color: #fff;
     background-image: none;
     color: #993c38 !important;
-    border-left-width: 0;
-    border-top-width: 0;
-    border-bottom-width: 0;
-    border-right-width: 0;
+    border-bottom: solid 0.4rem #fff;
+    border-right: solid 0.4rem #fff;
+    border-top: 0;
+    border-left: 0;
 }
 
 
@@ -635,11 +636,21 @@ a {
 
 /* Footer */
 
+.footer-section {
+   background-color: #f4f5f7;
+}
+
+.hashtag-footer-logo {
+    width: 18rem;
+    min-width: 18rem;
+}
+
 .talk-to-us,
 .address,
 .social-medias,
 .data-protection,
-.useful-links {
+.useful-links,
+.newsletter {
     font-size: 2.2rem;
     font-weight: 600;
 }
@@ -650,8 +661,13 @@ a {
 }
 
 .suport-assistant {
-    font-size: 1.8rem;
     font-weight: 500;
+}
+
+.name-footer-newsletter,
+.email-footer-newsletter,
+.suport-assistant {
+    font-size: 1.8rem;
 }
 
 .link-footer {
@@ -659,12 +675,65 @@ a {
     text-decoration: underline;
 }
 
-.newsletter {
-    font-size: 2.2rem;
-    font-weight: 600;
+.link-footer:hover {
+    color: #f60;
+    text-decoration: none;
 }
 
-.name-footer-newsletter,
-.email-footer-newsletter {
+
+.footer-section svg {
+    width: 2.4rem;
+    height: 2.4rem;
+}
+
+.social-media-icons-footer {
+    color: transparent;
+}
+
+.social-media-icons-footer:hover {
+    /* changes svg color when hovered */
+    fill: #f60; 
+}
+
+.newsletter-form-box {
+    border-radius: 2rem;
+    background-color: #fff;
+    box-shadow: inset 0 0 0.8rem 0.15rem rgba(0, 0, 0, 0.15);
+    padding: 4rem;
     font-size: 1.8rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #404040;
+}
+
+.newsletter-footer-button {
+    background: #1a77a4;
+    margin-top: 1.5rem;
+    padding: 1rem 3rem;
+    height: 5.1rem;
+    width: 13rem;
+    border: 0;
+    border-radius: 5rem;
+    border-right: solid 0.5rem #0c374d;
+    border-bottom: solid 0.5rem #0c374d;;
+    color: #fff;
+    font-weight: 700;
+}
+
+.newsletter-footer-button:hover {
+    border: 0;
+}
+
+.whatsapp-logo {
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    width: 8.5rem;
+    height: auto;
+    max-width: 100%;
+    cursor: pointer;
+}
+
+.whatsapp-logo:hover {
+    transform: translate(0.5rem, 0.5rem);
+    transition: 0.3s;
 }
