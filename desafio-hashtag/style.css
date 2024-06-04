@@ -73,6 +73,10 @@ input::placeholder {
 /* Header */
 
 .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3.12rem;
     position: sticky;
     z-index: 999;
     top: 0;
@@ -80,6 +84,12 @@ input::placeholder {
     background-color: #fff;
     padding: 1.28rem 2.5rem;
     box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
 }
 
 .menu-header li a {
@@ -90,19 +100,47 @@ input::placeholder {
     font-weight: 600;
 }
 
-nav {
-    display: none;
-}
-
 nav a:hover,
 a:active {
     color: #f60;
 }
 
+.item-header-list--has-children {
+    position: relative;
+}
+
+.item-header-list--has-children ul {
+    display: none;
+    gap: 0;
+    flex-flow: column;
+    width: max-content;
+    align-items: stretch;
+    position: absolute;
+    right: 0;
+    background-color: #fff;
+    padding: 0.41rem 0;
+    border-radius: 1rem;
+    box-shadow: 0 0.21rem 0.4rem rgba(0, 0, 0, 0.15), 
+        inset 0 0 0.4rem 0.1rem rgba(0, 0, 0, 0.1);
+}
+
+.item-header-list--has-children ul li {
+    border-bottom: solid 1px #ececec;
+    padding: 0.41rem 2rem;
+}
+
+.item-header-list--has-children ul li:last-child {
+    border-bottom: none;
+}
+
+
 .item-header-list--has-children::after {
     content: "\2bc6";
 }
 
+.item-header-list--has-children:hover ul {
+    display: flex;
+}
 
 /* Main - Hero Section */
 
