@@ -8,6 +8,13 @@
     font-size: 62.5%;
 }
 
+main{
+    display: flex;
+    flex-flow: column;
+    gap: 7.63rem;
+    padding: 2.4rem;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.8rem;
@@ -15,17 +22,26 @@ body {
 }
 
 section {
-    padding: 24px;
+    display: flex;
+    flex-flow:column;
+    gap: 3.12rem;
+    align-items: center;
 }
 
 figure {
-    margin-bottom: 3.2rem;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
 }
+
+figure img {
+    width: 30rem;
+}
+
 
 h1 {
     font-size: 4.5rem;
     line-height: 1;
-    margin-bottom: 3.2rem;
 }
 
 h1::first-letter {
@@ -35,23 +51,16 @@ h1::first-letter {
 h2 {
     font-size: 3.2rem;
     line-height: 1.1;
-    margin-bottom: 2.4rem;
 }
 
 h3 {
     font-size: 2.4rem;
     line-height: 1.2;
-    margin-bottom: 1.8rem;
-}
-
-p {
-    margin-bottom: 0.6rem;
 }
 
 figcaption {
     font-size: 1.2rem;
     font-style: italic;
-    margin-left: 3.2rem;
 }
 
 a:link,
@@ -62,7 +71,6 @@ a:visited {
     text-decoration-line: underline;
     font-weight: 700;
     color: #c44105;
-    margin-bottom: 2.4rem;
 }
 
 a:hover,
@@ -71,14 +79,12 @@ a:active {
 }
 
 ul {
-    margin-bottom: 2.4rem;
     margin-left: 2.4rem;
 }
 
 li {
     color: #035276;
     font-style: italic;
-    margin-bottom: 0.6rem;
 }
 
 .tv-size {
@@ -93,12 +99,26 @@ em {
     text-decoration: underline;
 }
 
-hr {
-    display: none;
+.figure-container {
+    display: flex;
+    gap: 4.88rem;
+}
+
+.price-conditions-container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 3.12rem;
+}
+
+.price-container,
+.payment-method {
+    display: flex;
+    flex-flow: column;
+    gap: 2rem;
 }
 
 .payment-method {
-    display: inline-block;
     background-color: #035276;
     color: #fff;
     box-shadow: 0 0 1.6rem 0.4rem rgba(0, 0, 0, 0.15);
@@ -108,5 +128,16 @@ hr {
 
 .payment-method em, i{
     color: #78d4ff;
+}
+
+.all-list-container {
+    display: flex;
+    gap: 3.12rem;
+}
+
+.list-container {
+    display: flex;
+    flex-flow: column;
+    gap: 2rem;
 }
 
