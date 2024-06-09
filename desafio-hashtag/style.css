@@ -301,8 +301,9 @@ a:active {
 .social-media-boxes li {
     display: flex;
     align-items: center;
-    gap: 0.65rem;
-    justify-content: center;
+    gap: 0.3rem;
+    justify-content: start;
+    padding-right: 7.5rem;
 }
 
 .social-media-boxes:link,
