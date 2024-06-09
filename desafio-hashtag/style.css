@@ -323,6 +323,11 @@ a:active {
 .social-media-boxes:hover,
 .social-media-boxes:active {
     text-decoration: underline;
+    color: #007bff;
+}
+
+.social-media-boxes:hover li {
+    color: #007bff;
 }
 
 .social-media-boxes img {
