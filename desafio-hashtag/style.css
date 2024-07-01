@@ -365,11 +365,14 @@ a {
 }
 
 .diferentials-container {
+    max-width: 106rem;
     border-radius: 5rem;
     /* background-color: #fff; */
 }
 
 .blue-division-diferentials {
+    display: flex;
+    gap: 4.88rem;
     border-top-left-radius: 5rem;
     border-top-right-radius: 5rem;
     background-color: #005e88;
@@ -380,8 +383,17 @@ a {
 }
 
 .vertical-yellow-bar {
+    display: flex;
+    flex: 1;
     border-left: solid 0.5rem #ffb20f;
     padding: 0.52rem 0 0.52rem 1.6rem;
+}
+
+.text-diferentials-home-header {
+    flex: 1;
+    text-align: right;
+    font-size: 1.92rem;
+    margin-top: 1.04rem;
 }
 
 .main-diferentials-structure {
@@ -410,13 +422,31 @@ a {
     width: 100%;
 }
 
+.diferentials-itens-block {
+    display: flex;
+    gap: 2.5rem;
+}
+
 .itens-diferentials-boxes {
+    flex: 1;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+    gap: 1.6rem;
     position: relative;
     border-radius: 2.5rem;
     background-color: #fff;
     box-shadow: 0 0 0.8rem 0.3rem rgba(0, 0, 0, 0.15);
-    padding: 3.12rem 2.5rem;
+    padding: 6.6rem 2.5rem 3.12rem 2.5rem;
 }
+
+.texts-itens-diferentials-boxes {
+    display: flex;
+    flex-flow: column;
+    gap: 1.02rem;
+}
+
 
 .diferentials strong {
     font-weight: 600;
@@ -426,9 +456,6 @@ a {
     font-weight: 600;
 }
 
-.text-diferentials-home-header {
-    font-size: 1.92rem;
-}
 
 .subtitle-diferentials-home {
     font-size: 2.3rem;
@@ -807,9 +834,34 @@ a {
     color: #fff;
 }
 
+.mini-course-container {
+    display: flex;
+    flex-flow: column;
+    gap: 2.5rem;
+    align-items: center;
+}
+
 .mini-course-section p {
     font-size: 1.9rem;
     font-weight: 400;
+}
+
+.mini-course-form {
+    align-self: stretch;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 2rem;
+}
+
+.form div {
+    display: flex;
+    flex-flow: column;
+    gap: 0.82rem;
+}
+
+.form div label {
+    margin-left: 0.8rem;
 }
 
 .form-course-button {
@@ -836,6 +888,52 @@ a {
 
 .footer-section {
    background-color: #f4f5f7;
+}
+
+.footer-container {
+    display: flex;
+    align-items: start;
+    gap: 4.28rem;
+}
+
+.subsection-footer, 
+.subsection-online-courses,
+.subsection-support-assistant,
+.footer-div-icon-link,
+.footer-column {
+    display: flex;
+    flex-flow: column;
+}
+
+.footer-column {
+    gap: 3.12rem;
+}
+
+.subsection-footer {
+    gap: 1.6rem;
+}
+
+.subsection-online-courses {
+    gap: 1.6rem;
+}
+
+.subsection-support-assistantc{
+    gap: 1.28rem;
+}
+
+.links-social-medias {
+    display: flex;
+    gap: 0.82rem;
+}
+
+.footer-div-icon-link {
+    gap: 0.65rem;
+}
+
+.footer-icon-link {
+    display: flex;
+    gap: 0.65rem;
+    align-items: center;
 }
 
 .hashtag-footer-logo {
@@ -873,6 +971,10 @@ a {
     text-decoration: underline;
 }
 
+.link-footer {
+    fill: #404040;
+}
+
 .link-footer:hover {
     color: #f60;
     text-decoration: none;
@@ -894,6 +996,10 @@ a {
 }
 
 .newsletter-form-box {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 1.6rem;
     border-radius: 2rem;
     background-color: #fff;
     box-shadow: inset 0 0 0.8rem 0.15rem rgba(0, 0, 0, 0.15);
@@ -919,6 +1025,10 @@ a {
 
 .newsletter-footer-button:hover {
     border: 0;
+}
+
+.footer-copyright {
+    text-align: center;
 }
 
 .whatsapp-logo {
