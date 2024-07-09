@@ -376,7 +376,7 @@ a {
     border-top-left-radius: 5rem;
     border-top-right-radius: 5rem;
     background-color: #005e88;
-    padding: 4.88rem;
+    padding: 12rem;
     background-image: linear-gradient(225deg, rgba(89, 136, 217, .28), rgba(92, 225, 250, .28));
     color: #fff;
     box-shadow: inset 0 0 0.8rem 0.3rem rgba(0, 0, 0, 0.15);
@@ -397,8 +397,11 @@ a {
 }
 
 .main-diferentials-structure {
+    display: flex;
+    flex-flow: column;
+    gap: 4.88rem;
     background-color: #f9f9f9;
-    padding: 4.88rem;
+    padding: 4.88rem 2.5rem;
     box-shadow: inset 0 0 0.8rem 0.3rem rgba(0, 0, 0, 0.15);
     border-bottom-left-radius: 5rem;
     border-bottom-right-radius: 5rem;
@@ -425,6 +428,8 @@ a {
 .diferentials-itens-block {
     display: flex;
     gap: 2.5rem;
+    align-items: center;
+    margin-top: -10rem;
 }
 
 .itens-diferentials-boxes {
@@ -462,6 +467,7 @@ a {
     /* line-height: 1.2rem; */
     color: #005e88;
     font-weight: 600;
+    margin-top: -1rem;
 }
 
 .blue-highlight-home a {
@@ -473,6 +479,22 @@ a {
 .companies-hashtag {
     font-size: 2.3rem;
     font-weight: 400;
+}
+
+.companies-img {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 2rem;
+    justify-content: center;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.diferentials-companies {
+    display: flex;
+    flex-flow: column;
+    gap: 2rem;
+    align-items: center;
 }
 
 .diferentials-companies img {
