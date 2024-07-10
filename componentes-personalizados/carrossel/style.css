@@ -1,0 +1,110 @@
+/* Universal */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Global */
+
+:root {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 62.5%;
+    color: #303030;
+}
+
+body {
+    font-size: 1.6rem;
+    line-height: 1.4;
+}
+
+.flex {
+    display: flex;
+
+    &.wrap {
+        flex-flow: row wrap;
+    }
+
+    &.col {
+        flex-flow: column;
+
+        &.wrap {
+            flex-flow: column wrap;
+        }
+    }
+}
+
+/* Carousel */
+
+section {
+    padding: 6.1rem;
+    justify-content: center;
+}
+
+.carousel {
+    max-width: 100rem;
+    position: relative;
+
+    & .container {
+        overflow: hidden;
+    }
+
+    & .images {
+        gap: 0.82rem;
+        width: max-content;
+
+        & .individual-img {
+            position: relative;
+            width: min(calc((100rem - (2 * 0.82rem)) / 3), calc(100vw - (2 * 0.82rem)) / 3);
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            aspect-ratio: 1/1;
+            border-radius: 1.5rem;
+        
+            &.in-focus::after {
+                background-color: transparent;
+                backdrop-filter: none;
+            }
+
+            &::after{
+                content: "";
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(255, 255, 255, 0.6);
+                backdrop-filter: blur(.2rem);
+            }
+
+            & img {
+                height: 100%;
+            }
+        }
+    }
+
+    & .button {
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        z-index: 1;
+        top: 50%;
+
+
+        background-color: #303030;
+        color: #fff;
+        border-radius: 0.8rem;
+        width: 3rem;
+        height: 3rem;
+        cursor: pointer;
+        box-shadow: 0 0 0.4rem rgba(0, 0, 0, .2);
+
+        &.left {
+            transform: translate(-50%, -50%);
+        }
+
+        &.right {
+            right: 0;
+            transform: translate(50%, -50%);
+        }
+    }
+}
