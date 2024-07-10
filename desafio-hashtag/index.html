@@ -5,10 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="popup.css">
     <title>Hashtag Treinamentos | Cursos de Excel, VBA, Python e mais!</title>
 </head>
 
-<body>
+<!-- JS not applied, to remove pop-up and visualize the site delete
+ the class "open-popup" from body -->
+
+<body class="open-popup">
     <!-- Cabeçalho -->
 
     <header class="header">
@@ -954,6 +958,38 @@
             </a>
         </div>
     </footer>
+
+    <aside>
+        <div class="popup">
+            <div class="container flex col">
+                <div class="image">
+                    <img src="https://www.hashtagtreinamentos.com/wp-content/uploads/2021/07/ADI-LPY19-20h_sem-data_-giulia.png"
+                        alt="">
+                </div>
+
+                <div class="content">
+                    <p>
+                        Quer sair do zero em Python e virar uma referência na sua empresa? Inscreva-se agora mesmo na
+                        Jornada Python
+                    </p>
+
+
+                    <form action="#" class="popup-form">
+                        <div>
+                            <label class="label-popup" for="name"></label>
+                            <input class="input-popup" type="text" name="email-popup" id="email-popup" required
+                                placeholder="Seu melhor e-mail">
+                        </div>
+                    </form>
+
+                    <button class="popup-button">Quero me inscrever na jornada Python</button>
+                </div>
+
+
+                <div class="close">x</div>
+            </div>
+        </div>
+    </aside>
 </body>
 
 </html>
